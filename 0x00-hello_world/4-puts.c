@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main--entry point
- * returne lawys 0
+ * return-- alawys (0)
  */
 int main(void)
 {

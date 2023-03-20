@@ -4,9 +4,10 @@
  * description
  * Return: Always 0 succes
  */
-int main (void)
+int main(void)
 {
 	char x;
+
 	for (x = 'a'; x <= 'z'; x++)
 		putchar(x);
 	putchar('\n');

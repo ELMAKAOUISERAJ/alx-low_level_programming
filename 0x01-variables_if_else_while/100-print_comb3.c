@@ -1,30 +1,27 @@
 #include <stdio.h>
 
 /**
-* main - Print combinations of two digit numbers
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 succes
+ */
 int main(void)
 {
-  int tens;
-  int ones;
-
-  for (tens = 0; tens <= 9; tens++)
-    {
-      for (ones = tens + 1; ones <= 9; ones++)
+	int x;
+	int y;
+	for (x = 0; x <= 9; x++)
 	{
-	  putchar(tens + '0');
-	  putchar(ones + '0');
-
-	  if (tens < 8)
-	    {
-	      putchar(',');
-	      putchar(' ');
-	    }
+		for (y = x + 1; y <= 9; y++)
+		{
+			putchar(x + '0');
+			putchar(y + '0');
+			if ( x < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-    }
-  putchar('\n');
-
-  return (0);
+	putchar('\n');
+	return (0);
 }

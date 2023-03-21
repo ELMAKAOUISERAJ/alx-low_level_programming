@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point 
- * When I was having that alphabet soup, I never thought that it would pay off
- * Return : Always 0 succes
+ *main - Entry point 
+ *
+ *Return : Always 0 succes
  */
 int main(void)
 {
@@ -11,6 +11,6 @@ int main(void)
 	for (x = 'a'; x <= 'z'; x++)
 		if (x != 'q' && x != 'e')
 		       putchar(x);
-putchar('\n');
+		putchar('\n');
 return (0);
 }

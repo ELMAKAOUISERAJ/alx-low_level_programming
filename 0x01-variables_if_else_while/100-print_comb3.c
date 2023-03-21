@@ -7,17 +7,17 @@
 */
 int main(void)
 {
-  int t;
-  int o;
+  int tens;
+  int ones;
 
-  for (t = 0; t <= 9; t++)
+  for (tens = 0; tens <= 9; tens++)
     {
-      for (o = t + 1; o <= 9; o++)
+      for (ones = tens + 1; ones <= 9; ones++)
 	{
-	  putchar(t + '0');
-	  putchar(o + '0');
+	  putchar(tens + '0');
+	  putchar(ones + '0');
 
-	  if (t < 8)
+	  if (tens < 8)
 	    {
 	      putchar(',');
 	      putchar(' ');

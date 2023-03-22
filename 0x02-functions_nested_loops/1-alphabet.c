@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main -ETRY
+ * print_alphabet - Print the alphabet in lowercase.
  * Description: print_alphabet();
  * Return: always à success
  */

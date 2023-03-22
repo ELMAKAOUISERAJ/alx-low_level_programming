@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main -ETRY
- *
+ * Description: print_alphabet();
  * Return: always à success
  */
 void print_alphabet(void)

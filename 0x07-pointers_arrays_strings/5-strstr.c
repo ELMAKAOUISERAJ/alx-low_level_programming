@@ -28,7 +28,7 @@ char *_strstr(char *haystack, char *needle)
  */
 int coincidence(char *a, char *b)
 {
-	while (*b && *b ==*a)
+	while (*b && *b == *a)
 	{
 		b++;
 		a++;

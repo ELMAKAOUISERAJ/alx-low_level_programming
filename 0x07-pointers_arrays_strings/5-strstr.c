@@ -20,3 +20,21 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
+/**
+ * coincidence - define if the strin b is iside a
+ * @a: source string
+ * @b: searched string
+ * Return: 1 if there is a coincidence 0 otherways
+ */
+int coincidence(char *a, char *b)
+{
+	while (*b && *b ==*a)
+	{
+		b++;
+		a++;
+	}
+	if (*b == '\0')
+		return (1);
+	else
+		return (0);
+}

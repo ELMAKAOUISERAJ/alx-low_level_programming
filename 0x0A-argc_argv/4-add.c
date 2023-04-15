@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - add two positive numbers
+ * main - multiple  two positive numbers
  * @argc: nb arguments
  * @argv: array of argument
+ * Return: ALWAYS 0
  */
 int main(int argc, char *argv[])
 {
@@ -38,4 +39,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 return (0);
 }
-	 

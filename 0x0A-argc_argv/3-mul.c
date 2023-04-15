@@ -7,16 +7,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int mult, a, b;
+	int mul, a, b;
 
-	if (argc != 3)
+	if(argv != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	a = atoi(argv[1]);
-	b = atoi(argv[2];
-			mult = a * b;
-			printf("%d\n", mult);
-			return (0);
-			}
+	b = atoi(argv[2]);
+	mult = a * b;
+	printf("%d\n", mult);
+	return (0);
+}
